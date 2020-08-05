@@ -1,4 +1,6 @@
 import React from 'react';
+import imageOne from '../assets/popular_01.png';
+import imageTwo from '../assets/popular_02.png';
 
 const SectionThree = () => {
     return(
@@ -12,36 +14,36 @@ const SectionThree = () => {
                     </div>
                 </div>
                 <div className="reel">
-                    <div className="a1">
-                        <img src="#" alt="#" />
+                    <div className="big">
+                        <img src={imageOne} alt="Popular 1" />
                         <h3>1 Does Theranos Mark the Peak of the Silicon Valley Bubble?</h3>
-                        <em>John Carreyrou talks to Nautilus about the lesson fo a $1 billon fund.</em>
+                        <em>John Carreyrou talks to Nautilus about the lesson fo a $1 billon fund.</em><br />
                         <span>BY MICHAEL SEGAL</span>
                     </div>
-                    <div className="a2">
-                        <img src="#" alt="#" />
+                    <div className="big">
+                        <img src={imageTwo} alt="Popular 2" />
                         <h3>2 Does Theranos Mark the Peak of the Silicon Valley Bubble?</h3>
-                        <em>John Carreyrou talks to Nautilus about the lesson fo a $1 billon fund.</em>
+                        <em>John Carreyrou talks to Nautilus about the lesson fo a $1 billon fund.</em><br />
                         <span>BY MICHAEL SEGAL</span>
                     </div>
-                    <div className="a3">
+                    <div>
                         <h4>3 Does Theranos Mark the Peak of the Silicon Valley Bubble?</h4>
-                        <em>John Carreyrou talks to Nautilus about the lesson fo a $1 billon fund.</em>
+                        <em>John Carreyrou talks to Nautilus about the lesson fo a $1 billon fund.</em><br />
                         <span>BY MICHAEL SEGAL</span>
                     </div>
-                    <div className="a4">
+                    <div>
                         <h4>4 Does Theranos Mark the Peak of the Silicon Valley Bubble?</h4>
-                        <em>John Carreyrou talks to Nautilus about the lesson fo a $1 billon fund.</em>
+                        <em>John Carreyrou talks to Nautilus about the lesson fo a $1 billon fund.</em><br />
                         <span>BY MICHAEL SEGAL</span>
                     </div>
-                    <div className="a5">
+                    <div>
                         <h4>5 Does Theranos Mark the Peak of the Silicon Valley Bubble?</h4>
-                        <em>John Carreyrou talks to Nautilus about the lesson fo a $1 billon fund.</em>
+                        <em>John Carreyrou talks to Nautilus about the lesson fo a $1 billon fund.</em><br />
                         <span>BY MICHAEL SEGAL</span>
                     </div>
-                    <div className="a6">
+                    <div>
                         <h4>6 Does Theranos Mark the Peak of the Silicon Valley Bubble?</h4>
-                        <em>John Carreyrou talks to Nautilus about the lesson fo a $1 billon fund.</em>
+                        <em>John Carreyrou talks to Nautilus about the lesson fo a $1 billon fund.</em><br />
                         <span>BY MICHAEL SEGAL</span>
                     </div>
                 </div>
