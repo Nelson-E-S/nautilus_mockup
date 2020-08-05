@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = () =>{
+const SectionHeader = () =>{
     return (
         <header>
             <h4>THE NAUTILUS SPOTLIGHT</h4>
@@ -10,4 +10,4 @@ const Header = () =>{
     );
 }
 
-export default Header;
+export default SectionHeader;
