@@ -1,4 +1,5 @@
 import React from 'react';
+import imageOne from '../assets/biology_03.png';
 
 const SectionFive = () => {
     return(
@@ -11,19 +12,19 @@ const SectionFive = () => {
                 </div>
                 <div className="content">
                     <div className="box">
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="biology" />
                         <h6>BIOLOGY</h6>
                         <p>Turning Back the Clock on Human Evolution</p>
                         <em>By Amy Maxmen</em>
                     </div>
                     <div className="box">
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="biology" />
                         <h6>BIOLOGY</h6>
                         <p>Turning Back the Clock on Human Evolution</p>
                         <em>By Amy Maxmen</em>
                     </div>
                     <div className="box">
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="biology" />
                         <h6>BIOLOGY</h6>
                         <p>Turning Back the Clock on Human Evolution</p>
                         <em>By Amy Maxmen</em>
