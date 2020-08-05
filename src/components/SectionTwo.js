@@ -57,6 +57,7 @@ const SectionTwo = () => {
                     <em>by Adam Piore</em>
                 </div>
             </div>
+            <hr />
             <div className="set">
                 <div className="box">
                     <h4>BIOLOGY+BEYOND</h4>
