@@ -15,6 +15,37 @@ header,section,footer{
 section, footer{
   background: white;
 }
+/*home view styling*/
+#main{
+  background-image: url("./assets/matches.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+#main .contentSpace{
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  color: white
+}
+#main p{
+  font-size: 10pt;
+  font-weight: lighter;
+}
+#main span{
+  font-size: 8pt;
+  font-weight: bold;
+  margin-top: 1%;
+}
+#main .contentSpace div{
+  background: black;
+  padding: 1%;
+  font-size: 8pt;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
 /*nav bar styling*/
 nav{
   height: 50px;
