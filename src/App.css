@@ -31,6 +31,7 @@ header h4{
 }
 header h1{
   color: orange;
+  margin-bottom: 1%;
 }
 header span{
   border: solid black;
@@ -38,4 +39,41 @@ header span{
   font-size: 8pt;
   background: white;
   font-weight: bold;
+}
+/*section one*/
+#s1{
+  background: lightgrey;
+}
+#s1 .contentSpace{
+  display: flex;
+  flex-flow: row nowrap;
+}
+#s1 .ChapterNav{
+  width: 40%;
+}
+.ChapterNav hr{
+  width: 95%;
+  height: 1px;
+  background: black;
+}
+.ChapterNav .header, .ChapterNav .nav{
+  padding-left: 10%;
+}
+.ChapterNav em{
+  color: orange;
+  font-size: 10pt;
+}
+.ChapterNav .header span{
+  font-size: 10pt;
+}
+.ChapterNav .header{
+  margin-bottom: 2%;
+}
+.ChapterNav .nav .active{
+  background: white;
+  border-left: 3px solid orange;
+}
+.ChapterNav .nav div{
+  padding-top: 5%;
+  padding-bottom: 5%;
 }

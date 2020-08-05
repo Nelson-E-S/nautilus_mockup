@@ -12,24 +12,27 @@ class SectionOne extends Component {
                             <span>"What genereates a new theory in science? ..."</span>
                         </div>
                         <div className="nav">
-                            <div>
+                            <div className="active">
                                 <h5>Chapter One</h5>
                                 <h6>Art</h6>
                             </div>
+                            <hr />
                             <div>
                                 <h5>Chapter Two</h5>
                                 <h6>Mind</h6>
-                                <span>Coming December 12</span>
+                                <em>Coming December 12</em>
                             </div>
+                            <hr />
                             <div>
                                 <h5>Chapter Three</h5>
                                 <h6>Energy</h6>
-                                <span>Coming December 19</span>
+                                <em>Coming December 19</em>
                             </div>
+                            <hr />
                             <div>
                                 <h5>Chapter Four</h5>
                                 <h6>Stars</h6>
-                                <span>Coming December 26</span>
+                                <em>Coming December 26</em>
                             </div>
                         </div>
                     </div>
