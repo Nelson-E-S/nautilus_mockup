@@ -1,4 +1,5 @@
 import React from 'react';
+import imageOne from '../assets/hp_prime.jpg';
 
 const SectionSix = () => {
     return(
@@ -10,7 +11,7 @@ const SectionSix = () => {
                         <span>MEMBERS SIGN IN</span>
                 </div>
                 <div className="content">
-                    <img src="#" alt="#" />
+                    <img src={imageOne} alt="prime" />
                     <div>
                         <p>Like <em>Nautilus</em>? You'll love <em>Nautilus</em> Prime.</p>
                         <p><span>Unlimited online reading</span> Read it all, whenever, wherever, and however you like.</p>
@@ -18,10 +19,10 @@ const SectionSix = () => {
                         <p><span>Tablet editions</span> All the content and design fo our award-winning print magazine, in PDF format-perfect for reading on you rtablet or desktop.</p>
                         <p><span>eBook editions</span> We've made each monthly online issu e into an eBook, compatible with most e-readers.</p>
                         <p><span>Event access</span> Prime members get priority to access to Nautilus events.</p>
-                        <div>
+                        <p>
                             <span className="left">Learn More</span>
                             <span className="right">Join Prime</span>
-                        </div>
+                        </p>
                         <p>Current print susbscriber?<br />You're already a Prime member.</p>
                     </div>
                 </div>
