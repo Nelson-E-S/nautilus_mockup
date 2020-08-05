@@ -19,8 +19,8 @@ const SectionSix = () => {
                         <p><span>eBook editions</span> We've made each monthly online issu e into an eBook, compatible with most e-readers.</p>
                         <p><span>Event access</span> Prime members get priority to access to Nautilus events.</p>
                         <div>
-                            <span class="left">Learn More</span>
-                            <span class="right">Join Prime</span>
+                            <span className="left">Learn More</span>
+                            <span className="right">Join Prime</span>
                         </div>
                         <p>Current print susbscriber?<br />You're already a Prime member.</p>
                     </div>

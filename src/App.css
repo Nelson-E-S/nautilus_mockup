@@ -21,4 +21,21 @@ header{
   background-image: url("./assets/clover_card.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: center;
+}
+header h4{
+  color: white;
+}
+header h1{
+  color: orange;
+}
+header span{
+  border: solid black;
+  padding: 1%;
+  font-size: 8pt;
+  background: white;
+  font-weight: bold;
 }
