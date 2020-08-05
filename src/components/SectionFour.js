@@ -1,18 +1,19 @@
 import React from 'react';
+import imageOne from '../assets/clover_card.jpg';
 
 const SectionFour = () => {
     return (
         <section id="s4">
             <div className="contentSpace">
                 <div className="title">
-                    <h2><em>Faccts So Romantic</em></h2>
+                    <h2><em>Facts So Romantic</em></h2>
                         <p>SCIENCE HAS A POWERFUL VOICE IN TODAY'S CULTURE.<br />
                         SO WHAT IS IT SAYING?</p>
-                        <span>Most Shared</span>
+                        <span>SEE ALL BLOG POSTS</span>
                 </div>
                 <div className="cards">
                     <div className="card">
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="card" />
                         <h6>Ideas</h6>
                         <p>Why the Laws of PHsyics Are Inevitable</p>
                         <em>
@@ -22,7 +23,7 @@ const SectionFour = () => {
                         <h6>Read more</h6>
                     </div>
                     <div className="card">
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="card" />
                         <h6>Ideas</h6>
                         <p>Why the Laws of PHsyics Are Inevitable</p>
                         <em>
@@ -32,7 +33,7 @@ const SectionFour = () => {
                         <h6>Read more</h6>
                     </div>
                     <div className="card">
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="card" />
                         <h6>Ideas</h6>
                         <p>Why the Laws of PHsyics Are Inevitable</p>
                         <em>
@@ -42,7 +43,7 @@ const SectionFour = () => {
                         <h6>Read more</h6>
                     </div>
                     <div className="card">
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="card" />
                         <h6>Ideas</h6>
                         <p>Why the Laws of PHsyics Are Inevitable</p>
                         <em>
