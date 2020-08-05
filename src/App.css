@@ -4,3 +4,21 @@
   padding: 0;
   border: 0;
 }
+/*App styling*/
+header,section,footer{
+  width: 100%;
+}
+.contentSpace{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+section, footer{
+  background: white;
+}
+/*Section Header Styling*/
+header{
+  height: 200px;
+  background-image: url("./assets/clover_card.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
