@@ -5,7 +5,7 @@ const SectionFooter = () =>{
         <footer>
             <div className="contentSpace">
                 <div className="info">
-                    <div className="listbox">
+                    <div className="listBox">
                         <ul className="list">
                             <li>About</li>
                             <li>CONTACT /WORK WITH US</li>
@@ -14,7 +14,7 @@ const SectionFooter = () =>{
                             <li>SUBSCRIBE</li>
                         </ul>
                     </div>
-                    <div className="listbox">
+                    <div className="listBox">
                         <ul className="list">
                             <li>AWARDS AND PRESS</li>
                             <li>DONATE</li>
@@ -28,6 +28,9 @@ const SectionFooter = () =>{
                         <p>Nautilus is a different kind of science magazine. We deliver big-picture science by reporting on a single monthly topic form multiple perspectives. Read a new chapter in the story every Thursday.</p>
                     </div>
                 </div>
+            </div>
+            <hr />
+            <div className="contentSpace">
                 <div className="final">
                     <span className="copy">&copy; 2019 NautilusThink. All rights reserved.</span><span>Matter, Biology, Numbers, Ideas, Culture, <em>Connnected</em></span>
                 </div>

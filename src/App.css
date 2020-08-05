@@ -340,3 +340,47 @@ header span{
   background: black;
   padding: 2%;
 }
+/*footer*/
+footer{
+  margin-top: 2%;
+  background: black;
+}
+footer .info{
+  display: flex;
+  flex-flow: row wrap;
+}
+footer .info ul{
+  list-style: none;
+}
+footer .info ul li{
+  color: orange;
+  font-size: 8pt;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+footer .info .listBox{
+  width: 200px;
+}
+footer .info div{
+  width: 400px;
+  color: white;
+}
+footer .info div p{
+  margin-top: 5%;
+  font-size: 8pt;
+}
+footer .final{
+  margin-top: 2%;
+  color: white;
+  font-size: 8pt;
+}
+footer .copy{
+  color: lightgray;
+  margin-right: 3%;
+}
+footer hr{
+  margin-top: 3%;
+  width: 100%;
+  background: white;
+  height: 1px;
+}
