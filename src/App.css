@@ -122,3 +122,42 @@ header span{
   display: flex;
   flex-flow: column nowrap;
 }
+/*SectionTwo styling*/
+#s2 .contentSpace{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#s2 hr{
+  background: lightgrey;
+  height: 1px;
+  width: 100%;
+}
+#s2 .contentSpace .title{
+  text-align: center;
+}
+#s2 .contentSpace .title p{
+  font-size: 8pt;
+}
+#s2 .set{
+  margin-top: 2%;
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 2%;
+}
+#s2 .set .box{
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1%;
+  width: 260px;
+}
+#s2 .box img{
+  width: 100%;
+}
+#s2 .box p{
+  font-size: 10pt;
+  font-weight: bold;
+}
+#s2 .box em{
+  font-size: 8pt;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import imageOne from '../assets/bio_and_beyond.jpeg';
 
 const SectionTwo = () => {
     return(
@@ -11,93 +12,73 @@ const SectionTwo = () => {
                 <div className="set">
                     <div className="box">
                         <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="Biology and Beyond" />
                         <p>Making Sendse of the Genome, at Last</p>
                         <em>by Adam Piore</em>
                     </div>
                     <div className="box">
                         <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="Biology and Beyond" />
                         <p>Making Sendse of the Genome, at Last</p>
                         <em>by Adam Piore</em>
                     </div>
                     <div className="box">
                         <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="Biology and Beyond" />
                         <p>Making Sendse of the Genome, at Last</p>
                         <em>by Adam Piore</em>
                     </div>
                     <div className="box">
                         <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="Biology and Beyond" />
                         <p>Making Sendse of the Genome, at Last</p>
                         <em>by Adam Piore</em>
                     </div>
                     <div className="box">
                         <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="Biology and Beyond" />
                         <p>Making Sendse of the Genome, at Last</p>
                         <em>by Adam Piore</em>
                     </div>
                     <div className="box">
                         <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
-                        <p>Making Sendse of the Genome, at Last</p>
-                        <em>by Adam Piore</em>
-                    </div>
-                    <div className="box">
-                        <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
-                        <p>Making Sendse of the Genome, at Last</p>
-                        <em>by Adam Piore</em>
-                    </div>
-                    <div className="box">
-                        <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
-                        <p>Making Sendse of the Genome, at Last</p>
-                        <em>by Adam Piore</em>
-                    </div>
-                </div>
-                <hr />
-                <div className="set">
-                    <div className="box">
-                        <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
-                        <p>Making Sendse of the Genome, at Last</p>
-                        <em>by Adam Piore</em>
-                    </div>
-                    <div className="box">
-                        <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
-                        <p>Making Sendse of the Genome, at Last</p>
-                        <em>by Adam Piore</em>
-                    </div>
-                    <div className="box">
-                        <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
-                        <p>Making Sendse of the Genome, at Last</p>
-                        <em>by Adam Piore</em>
-                    </div>
-                    <div className="box">
-                        <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
-                        <p>Making Sendse of the Genome, at Last</p>
-                        <em>by Adam Piore</em>
-                    </div>
-                    <div className="box">
-                        <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
-                        <p>Making Sendse of the Genome, at Last</p>
-                        <em>by Adam Piore</em>
-                    </div>
-                    <div className="box">
-                        <h4>BIOLOGY+BEYOND</h4>
-                        <img src="#" alt="#" />
+                        <img src={imageOne} alt="Biology and Beyond" />
                         <p>Making Sendse of the Genome, at Last</p>
                         <em>by Adam Piore</em>
                     </div>
                 </div>
             </div>
+            <hr />
+            <div className="contentSpace">
+                <div className="set">
+                    <div className="box">
+                        <h4>BIOLOGY+BEYOND</h4>
+                        <img src={imageOne} alt="Biology and Beyond" />
+                        <p>Making Sendse of the Genome, at Last</p>
+                        <em>by Adam Piore</em>
+                    </div>
+                    <div className="box">
+                        <h4>BIOLOGY+BEYOND</h4>
+                        <img src={imageOne} alt="Biology and Beyond" />
+                        <p>Making Sendse of the Genome, at Last</p>
+                        <em>by Adam Piore</em>
+                    </div>
+                    <div className="box">
+                        <h4>BIOLOGY+BEYOND</h4>
+                        <img src={imageOne} alt="Biology and Beyond" />
+                        <p>Making Sendse of the Genome, at Last</p>
+                        <em>by Adam Piore</em>
+                    </div>
+                    <div className="box">
+                        <h4>BIOLOGY+BEYOND</h4>
+                        <img src={imageOne} alt="Biology and Beyond" />
+                        <p>Making Sendse of the Genome, at Last</p>
+                        <em>by Adam Piore</em>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <br />
         </section>
     );
 }
