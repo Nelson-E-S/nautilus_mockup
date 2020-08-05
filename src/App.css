@@ -15,6 +15,37 @@ header,section,footer{
 section, footer{
   background: white;
 }
+/*nav bar styling*/
+nav{
+  height: 50px;
+}
+nav .contentSpace{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+nav img{
+  width: 250px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding-top: 2%;
+  width: 350px;
+}
+nav ul li{
+  margin-right: 3%;
+  font-size: 8pt;
+  font-weight: bold;
+}
+nav .sub{
+  border: solid black;
+  color: white;
+  background: black;
+  padding: 1%;
+}
 /*Section Header Styling*/
 header{
   height: 200px;
