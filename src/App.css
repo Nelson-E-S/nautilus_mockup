@@ -77,3 +77,48 @@ header span{
   padding-top: 5%;
   padding-bottom: 5%;
 }
+.ChapterContent{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "main main" "subleft subright";
+}
+.ChapterContent .main{
+  grid-area: main;
+}
+.ChapterContent .subleft{
+  grid-area: subleft;
+}
+.ChapterContent .subright{
+  grid-area: subright;
+}
+.ChapterContent .box{
+  position: relative;
+}
+.ChapterContent img{
+  width: 100%;
+}
+.box .tag{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  background: white;
+  width: 150px;
+  padding: 2%;
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+.box .tag .right{  
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1000;
+  background: white;
+  width: 150px;
+  padding: 2%;
+
+  display: flex;
+  flex-flow: column nowrap;
+}

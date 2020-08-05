@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import imageOne from '../assets/ai.png';
+import imageTwo from '../assets/music.png';
+import imageThree from '../assets/art.png';
 
 class SectionOne extends Component {
     render(){
@@ -38,27 +41,33 @@ class SectionOne extends Component {
                     </div>
                     <div className="ChapterContent">
                         <div className="main">
-                            <img src="#" alt="#" />
                             <div className="box">
-                                <h5>ARTIFICIAL INTELLIGENCE</h5>
-                                <span>Best Screenplay Goes to the Algorithms</span>
-                                <em>By Arthur I. Miller</em>
+                                <img src={imageOne} alt="ai" />
+                                <div className="tag">
+                                    <h5>ARTIFICIAL INTELLIGENCE</h5>
+                                    <span>Best Screenplay Goes to the Algorithms</span>
+                                    <em>By Arthur I. Miller</em>
+                                </div>
                             </div>
                         </div>
                         <div className="subleft">
-                            <img src="#" alt="#" />
                             <div className="box">
-                                <h5>MUSIC</h5>
-                                <span>How I Taught My Computer to Write Its Own Music</span>
-                                <em>By John Supko</em>
+                                <img src={imageTwo} alt="#" />
+                                <div className="tag">
+                                    <h5>MUSIC</h5>
+                                    <span>How I Taught My Computer to Write Its Own Music</span>
+                                    <em>By John Supko</em>
+                                </div>
                             </div>
                         </div>
-                        <div className="subleft">
-                            <img src="#" alt="#" />
+                        <div className="subright">
                             <div className="box">
-                                <h5>ART</h5>
-                                <span>Picasso's Got Nothing on AI Artists</span>
-                                <em>By Kevin Berger</em>
+                                <img src={imageThree} alt="#" />
+                                <div className="tag right">
+                                    <h5>ART</h5>
+                                    <span>Picasso's Got Nothing on AI Artists</span>
+                                    <em>By Kevin Berger</em>
+                                </div>
                             </div>
                         </div>
                     </div>
