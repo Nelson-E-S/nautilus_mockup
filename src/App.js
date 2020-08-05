@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import HomeView from './components/HomeView';
 import NavBar from './components/NavBar';
 import SectionHeader from './components/SectionHeader';
 import SectionOne from './components/SectionOne';
@@ -13,6 +14,7 @@ import SectionFooter from './components/SectionFooter';
 function App() {
   return (
     <div className="App">
+      <HomeView />
       <NavBar />
       <SectionHeader />
       <SectionOne />
